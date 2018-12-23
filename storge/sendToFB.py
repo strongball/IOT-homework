@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.dates as mdates
 
 FILENAME = "./tmp.jpg"
-TOKEN = "EAASXW84za5ABAK9cl58paQcrukY8TxMV4yfTfgvFUBZCZC69gK6ImpBYGTD4F4J6DzH6wip70kW6bsZCOvkyuPamZCuqfkXxi1Re8LxgiRZBDaMnltFfqYf3lnBxQTklKuoC9sgZB3so96ZCI9bSuI8qsEcDnvJJk0AeaQVbk643QZDZD"
+TOKEN = "....."
 def sendFBMessage(to, message):
 	post_message_url = 'https://graph.facebook.com/v2.6/me/messages?access_token={token}'.format(token=TOKEN)
 	response_message = json.dumps({"recipient":{"id": to}, 
